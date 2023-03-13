@@ -2,25 +2,49 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: white;
+    background-color: peachpuff;
+    
 }
 
-.nav {
-    background-color: #595959;
-    color: white;
-    list-style: none;
+nav {
+    background-color: #ff5d5d;
+    width: 90%;
     text-align: center;
     padding: 20px 0 20px 0;
-}
-
-.nav > li {
-    display: inline-block;
     padding-right: 50px;
+    margin: auto;
 }
 
-.nav > li > a {
-    text-decoration: none;
+nav a{
     color: white;
-    
+    text-decoration: none;
+    padding: 1.2%;
+}
 
+nav a:hover{
+    color: red;
+    background-color: green;
+
+}
+
+section img{
+    margin: auto;
+    display: block;
+}
+
+section div{
+    display: flex;
+    flex-wrap: nowrap;
+    margin: auto;
+}
+
+section div div{
+    border: 2px dotted red;
+    margin: auto;
+}
+
+footer{
+    background-color: #ff5d5d;
+    border: 2px dotted red;
+    color: white;
 }
