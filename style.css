@@ -1,11 +1,21 @@
-body{
-    background-color: pink;
-    text-align: center;
-    color:rgb(70, 0, 15);
-    font-size: 25px;
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
 }
 
-nav{
-    text-align: horizontal;
+.nav {
+    background-color: #595959;
+    color: white;
+    list-style: none;
+    text-align: center;
+    padding: 20px 0 20px 0;
+}
+
+.nav > li {
+    display: inline-block;
+    padding-right: 50px;
     
+
 }
